@@ -1,0 +1,22 @@
+name: fenfeiji
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '55 3/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: fenfeiji
+        env:
+          bnpw618: ${{ secrets.bnpw618 }}
+        run: |
+          echo $bnpw618 | jq -r .vw2 | /bin/bash
+          echo $kt2882 | jq -r .llee4198 | /bin/bash
+          echo $tsjk394 | jq -r .ttq02278 | /bin/bash
+          echo $hte4328 | jq -r .z55 | /bin/bash
+
