@@ -3,20 +3,20 @@ name: fenfeiji
 on:
   workflow_dispatch:
   schedule:
-    - cron: '55 3/6 * * *'
-
-jobs:  # 9217
+    - cron: '16 2/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: fenfeiji
         env:
-          bnpw618: ${{ secrets.bnpw618 }}
+          oo78: ${{ secrets.oo78 }}
         run: |
-          echo $bnpw618 | jq -r .vw2 | /bin/bash
-          echo $kt2882 | jq -r .llee4198 | /bin/bash
-          echo $tsjk394 | jq -r .ttq02278 | /bin/bash
-          echo $hte4328 | jq -r .z55 | /bin/bash
+          echo $oo78 | jq -r .pvgdh476 | /bin/bash
+          echo $lnvx8 | jq -r .v76 | /bin/bash
+          echo $pm47888 | jq -r .vep8184 | /bin/bash
+          echo $v45857 | jq -r .mkp45 | /bin/bash
+          echo $twgqh25 | jq -r .e6567 | /bin/bash
+          echo $yh772 | jq -r .xyc28 | /bin/bash
 
